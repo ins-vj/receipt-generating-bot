@@ -13,24 +13,29 @@ This project is a WhatsApp bot built with Django. Follow the steps below to set 
 
 ### 1. Clone the Repository
 
-### 2. Set up Virtual environment
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set up Virtual environment
 ```bash
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
 ```
-### 3. Configure settings.py
+### 4. Configure settings.py
        add your credentials in settings.py
 
-### 4. Set up ngrok
+### 5. Set up ngrok
 
-### 5. Set up twilio on their website
+### 6. Set up twilio on their website
 
-### 6. Migrate the database
+### 7. Migrate the database
 ```bash
 python manage.py migrate
 ```
-### 7. Start Django Server
+### 8. Start Django Server
 ```bash
 python manage.py runserver
 ```
