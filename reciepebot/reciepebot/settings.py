@@ -123,9 +123,11 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['c020-103-159-214-186.ngrok-free.app', '127.0.0.1', 'localhost']
-TWILIO_ACCOUNT_SID = 'AC60c3babb5a7a93e77fa97dc4e7659d89'
-TWILIO_AUTH_TOKEN = '2b8bf9a5f6a50c0d902289049b31c3a8'
-TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
+
+#add your credentials here
+ALLOWED_HOSTS = ['url-from-ngrok', '127.0.0.1', 'localhost']
+TWILIO_ACCOUNT_SID = 'your-twilio-account-sid'
+TWILIO_AUTH_TOKEN = 'your-twilio-auth-token'
+TWILIO_WHATSAPP_NUMBER = 'your-twilio-whatsapp-number'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
