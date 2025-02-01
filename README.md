@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ### 3. Set up Virtual environment
 ```bash
-python -m venv env![WhatsApp Image 2024-08-16 at 10 48 00 PM](https://github.com/user-attachments/assets/8cc684cb-3c9d-4310-bda5-87c9e45e6b73)
+python -m venv env
 
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
